@@ -13,7 +13,7 @@ function Feature({
     desc: string
 }) {
     return (
-        <div className="flex gap-3 items-start lg:justify-end">
+        <div className="flex gap-3 items-center lg:justify-end">
             <div className="text-center lg:text-right">
                 <h3
                     className="text-sm font-medium"
@@ -31,7 +31,7 @@ function Feature({
             </div>
 
             <div
-                className="hidden md:block w-10 h-10 flex items-center justify-center rounded-lg shrink-0 ml-auto"
+                className="hidden md:flex w-10 h-10 flex items-center justify-center rounded-lg shrink-0 ml-auto"
                 style={{
                     background: `rgb(var(--primary) / 0.12)`,
                     color: `rgb(var(--primary))`

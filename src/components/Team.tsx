@@ -98,38 +98,84 @@ export default function Team() {
 
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-10 lg:gap-14">
                     <Member
-                        name="Adrian Keller"
-                        role="Autonomous Systems Engineer"
+                        name="Muhammad Parisya Rafif Bayanaka"
+                        role="Hull Designer & Analisys"
                         gender="male"
                     />
 
                     <Member
-                        name="Lucas Meyer"
-                        role="Marine Robotics Researcher"
+                        name="Muhammad Ihsan Syawaludin"
+                        role="Hull Designer & Analisys"
                         gender="male"
                     />
 
                     <Member
-                        name="Daniel Park"
-                        role="Control Systems Engineer"
+                        name="Muhammad Akbar Albaihaqi D."
+                        role="Hull Production Engineer"
                         gender="male"
                     />
 
                     <Member
-                        name="Elena Kovacs"
-                        role="Computer Vision Engineer"
+                        name="Wahyu Ardyansyah"
+                        role="Metalworks Engineer"
+                        gender="male"
+                    />
+
+                    <Member
+                        name="Aufar Try Khadafi"
+                        role="Propulsion System Engineer"
+                        gender="male"
+                    />
+
+                    <Member
+                        name="Muhammad Alim Hidayat"
+                        role="Microcontroller Expert"
+                        gender="male"
+                    />
+                    <Member
+                        name="Ilham Malik Ibrahim"
+                        role="Electrical Design Engineer"
+                        gender="male"
+                    />
+
+                    <Member
+                        name="Vincent Valentino"
+                        role="Program Control Engineer"
+                        gender="male"
+                    />
+
+                    <Member
+                        name="Muhammad Azka Ananta K."
+                        role="Program Vision Engineer"
+                        gender="male"
+                    />
+
+                    <Member
+                        name="Reyvan Attarajwa Andhara"
+                        role="Web Developer"
+                        gender="male"
+                    />
+
+                    <Member
+                        name="Rayan Rajendra Rasendriya"
+                        role="Social Brand Expert"
+                        gender="male"
+                    />
+
+                    <Member
+                        name="Caroly Sebastian Ranto"
+                        role="Finance and Administration"
                         gender="female"
                     />
-
                     <Member
-                        name="Marcus Tan"
-                        role="Embedded Systems Engineer"
+                        name="Gahyaka Gatur"
+                        role="Sponsor and External"
                         gender="male"
                     />
 
                     <Member
-                        name="Nina Sato"
-                        role="Navigation Algorithms"
+                        name="Tasya Aurelia"
+                        role="Sponsor and External"
                         gender="female"
                     />
 
