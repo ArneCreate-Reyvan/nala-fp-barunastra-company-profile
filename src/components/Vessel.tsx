@@ -109,7 +109,7 @@ export default function Vessel() {
                         />
 
                         <Image
-                            src="/assets/thesus.webp"
+                            src="/assets/boat/nalaLevihatan-sideclose.png"
                             alt="Autonomous vessel"
                             width={1400}
                             height={700}

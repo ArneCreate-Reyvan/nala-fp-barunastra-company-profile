@@ -8,7 +8,11 @@ const sponsors = [
     { name: "PAL", logo: "/assets/sponsor/palSponsor.jpg" },
     { name: "Telkomsel", logo: "/assets/sponsor/telkomselSponsor.png" },
     { name: "PLN", logo: "/assets/sponsor/plnSponsor.jpg" },
-    // { name: "Bosch", logo: "/assets/sponsor/semenIndoSponsor.jpg" },
+    { name: "Intel", logo: "/assets/sponsor/intelSponsor.png" },
+    { name: "Buaya Aerotech", logo: "/assets/sponsor/buayaSponsor.jpg" },
+    { name: "Rekaindo", logo: "/assets/sponsor/rekaIndoSponsor.png" },
+    { name: "Chemposite", logo: "/assets/sponsor/chempositeSponsor.jpg" },
+    { name: "Pelindo", logo: "/assets/sponsor/pelindoSponsor.png" },
 ]
 
 export function SponsorCarousel() {
