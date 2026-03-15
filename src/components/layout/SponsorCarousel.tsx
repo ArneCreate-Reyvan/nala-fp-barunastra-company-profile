@@ -10,7 +10,7 @@ const sponsors = [
     { name: "PLN", logo: "/assets/sponsor/plnSponsor.jpg" },
     { name: "Intel", logo: "/assets/sponsor/intelSponsor.png" },
     { name: "Buaya Aerotech", logo: "/assets/sponsor/buayaSponsor.jpg" },
-    { name: "Rekaindo", logo: "/assets/sponsor/rekaIndoSponsor.png" },
+    { name: "Rekaindo", logo: "/assets/sponsor/rekaindoSponsor.png" },
     { name: "Chemposite", logo: "/assets/sponsor/chempositeSponsor.jpg" },
     { name: "Pelindo", logo: "/assets/sponsor/pelindoSponsor.png" },
 ]
