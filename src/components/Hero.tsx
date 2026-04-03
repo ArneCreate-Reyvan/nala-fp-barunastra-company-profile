@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { HeroSystemPanel } from "./layout/HeroSystemPanel"
+import Link from "next/link"
 
 export default function Hero() {
   return (
@@ -28,14 +29,15 @@ export default function Hero() {
             <div className="ghost ghost-outer"></div>
             <div className="ghost ghost-inner"></div>
 
-            <Button
-              variant="outline"
-              size="lg"
-              className="hover-tech relative z-10 hover:!border-[rgb(var(--primary))] hover:!bg-[rgb(var(--primary))] hover:!text-black"
-            >
-              Explore Projects
-            </Button>
-
+            <Link href="#vessel">
+              <Button
+                variant="outline"
+                size="lg"
+                className="hover-tech relative z-10 hover:!border-[rgb(var(--primary))] hover:!bg-[rgb(var(--primary))] hover:!text-black"
+              >
+                Our Boat
+              </Button>
+            </Link>
           </div>
 
           <div className="ghost-wrap">
@@ -43,13 +45,15 @@ export default function Hero() {
             <div className="ghost ghost-outer"></div>
             <div className="ghost ghost-inner"></div>
 
-            <Button
-              variant="outline"
-              size="lg"
-              className="hover-tech relative z-10 hover:!border-[rgb(var(--primary))] hover:!bg-[rgb(var(--primary))] hover:!text-black"
-            >
-              Contact
-            </Button>
+            <Link href="#contact">
+              <Button
+                variant="outline"
+                size="lg"
+                className="hover-tech relative z-10 hover:!border-[rgb(var(--primary))] hover:!bg-[rgb(var(--primary))] hover:!text-black"
+              >
+                Contact
+              </Button>
+            </Link>
 
           </div>
 
@@ -64,7 +68,7 @@ export default function Hero() {
         <HeroSystemPanel />
       </div>
 
-      <div className="md:hidden mt-12 text-sm text-center text-muted-foreground">
+      <div className="md:hidden mt-12 text-sm text-center8 text-muted-foreground">
         Autonomous systems interface preview available on larger screens.
       </div>
 

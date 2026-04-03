@@ -130,6 +130,14 @@
 
 /* Hide scrollbar but keep scrolling */
 
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 90px;
+}
+
 html,
 body {
   -ms-overflow-style: none;

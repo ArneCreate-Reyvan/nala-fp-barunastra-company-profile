@@ -13,7 +13,7 @@ import {
 
 export default function Navbar() {
     const [open, setOpen] = useState(false)
-    
+
     useEffect(() => {
         document.body.style.overflow = open ? "hidden" : "auto"
     }, [open])
@@ -72,13 +72,15 @@ export default function Navbar() {
                     <div className="ghost ghost-outer"></div>
                     <div className="ghost ghost-inner"></div>
 
-                    <Button
-                        variant="outline"
-                        size="lg"
-                        className="hover-tech relative z-10 hover:!border-[rgb(var(--primary))] hover:!bg-[rgb(var(--primary))] hover:!text-black hidden md:flex"
-                    >
-                        Contact
-                    </Button>
+                    <Link href="#contact">
+                        <Button
+                            variant="outline"
+                            size="lg"
+                            className="hover-tech relative z-10 hover:!border-[rgb(var(--primary))] hover:!bg-[rgb(var(--primary))] hover:!text-black hidden md:flex"
+                        >
+                            Contact
+                        </Button>
+                    </Link>
 
                 </div>
 
@@ -92,9 +94,11 @@ export default function Navbar() {
                         <Link href="#teams" onClick={() => setOpen(false)}>Teams</Link>
                         <Link href="#contact" onClick={() => setOpen(false)}>Contact Us</Link>
 
-                        <Button variant="secondary" className="mt-2">
-                            Contact
-                        </Button>
+                        <Link href="#contact">
+                            <Button variant="secondary" className="mt-2">
+                                Contact
+                            </Button>
+                        </Link>
 
                     </div>
                 </div>
